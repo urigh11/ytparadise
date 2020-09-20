@@ -24,7 +24,7 @@ export const HomeButton = styled.div`
   display: flex;
   flex-direction: row;
   border: none;
-  background: green;
+  background: #422782;
   /* background: #227088; */
   font-size: 1.2em;
   margin: 0;

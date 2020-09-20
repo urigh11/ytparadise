@@ -5,9 +5,12 @@ import {
   VideoUnitTitle,
   VideoContainer,
   VideoAndAds,
-  AdVertical,
+  AdVertical, Donate
 } from "./VideoPage.style";
+
 import { videoLinks } from "../Main/videoLinksArray";
+
+import coffee from "../../assets/images/buymecoffee.jpg"
 
 const VideoPage = ({ match }) => {
   const {
@@ -49,6 +52,15 @@ const VideoPage = ({ match }) => {
           ></iframe>
         </AdVertical>
       </VideoAndAds>
+    <Donate>
+      <a
+            href="https://www.buymeacoffee.com/ytparadise"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img srcSet={coffee} alt="" />
+          </a>
+    </Donate>
     </VideoUnit>
   );
 };

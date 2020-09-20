@@ -46,13 +46,23 @@ export const VideoContainer = styled.div`
   }
 `;
 
-// Ads below
+// Support 
+export const Donate = styled.div`
+
+margin: 20px auto;
+
+  img {
+    width: 150px;
+    background: white;
+  }
+
+  /* @media screen and (min-width: 1024px) {
+    margin: 0 30px;
+  } */
+`
+
+// Ads 
 export const AdVertical = styled.div`
-  /* background: orange;
-  border: 2px solid white;
-  width: 320px;
-  height: 100px;
-  align-self: center; */
   display: none;
 
   @media screen and (min-width: 768px) {
@@ -61,9 +71,5 @@ export const AdVertical = styled.div`
     position: absolute;
     top: 250px;
     left: 150px;
-    /* width: 728px;
-    height: 90px;
-    align-self: center;
-    margin: 20px 0; */
   }
 `;
