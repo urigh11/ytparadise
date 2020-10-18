@@ -52,7 +52,7 @@ export const Donate = styled.div`
 margin: 20px auto;
 
   img {
-    width: 150px;
+    width: 250px;
     background: white;
   }
 

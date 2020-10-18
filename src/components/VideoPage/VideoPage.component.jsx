@@ -53,6 +53,8 @@ const VideoPage = ({ match }) => {
         </AdVertical>
       </VideoAndAds>
     <Donate>
+
+      <h3>Support with a coffe or pizza :)</h3>
       <a
             href="https://www.buymeacoffee.com/ytparadise"
             target="_blank"
