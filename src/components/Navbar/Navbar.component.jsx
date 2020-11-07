@@ -21,7 +21,7 @@ const Navbar = ({ setVideos }) => {
     <NavContainer>
       <HomeButton>
         <Link onClick={() => setVideos([...videoLinks].reverse())} to="/">
-          <h1>YTParadise - Gorgeous celebrities and youtubers</h1>
+          <h1>YTParadise - Gorgeous celebrities and youtubers. Weekly updates!</h1>
         </Link>
         <MobButton onClick={() => setToggle(!toggle)}>
           <FaAlignRight />
